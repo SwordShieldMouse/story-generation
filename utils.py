@@ -1,3 +1,5 @@
+from includes import *
+
 def read_lines(path):
     # read the data first into lines and lowercase
     f = open(path)
@@ -21,4 +23,3 @@ def irrelevant_line(line):
 
 def get_sentences(lines):
     sentences = []
-    
